@@ -1,6 +1,5 @@
 package threading.printsequence;
 
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class MyPrintSequenceRunnabe implements Runnable{
