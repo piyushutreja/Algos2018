@@ -3,7 +3,6 @@ package custom.hashmap;
 //http://blog.miyozinc.com/algorithms/custom-hashmap-implementation-in-java/
 public class CustomHashMap<K , V  > implements Map<K, V>{
 	
-
 	private Entry<K,V> [] buckets;
 	private static final int INITIAL_CAPACITY=1<<4;
 	private static  int CAPACITY=1<<4;
